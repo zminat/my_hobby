@@ -1,7 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё хобби</title>
+    <link rel="stylesheet" href="hobby.css">
 </head>
 <body>
+<div class="header">
+    <div class="inner-header">
+        <div class="logo-container">
+            <h1>Моё хобби</h1>
+        </div>
+        <ul class="navigation">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#hobby">Хобби</a></li>
+            <li><a href="#contact">Обратная связь</a></li>
+        </ul>
+    </div>
+</div>
+<div class="topContentWrapper" id="about">
+    <div class="content">
+        <img class="rightimg" src="./images/Глаша.jpeg" alt="Портрет Глаши" width="200">
+        <h2>ОБО МНЕ</h2>
+        <p>Здравствуйте!
+            <br>Меня зовут Глаша. Я профессионал в области организации мероприятий, с многолетним опытом и
+            страстью к созданию уникальных проектов. Моя работа — это не просто профессия, а способ воплощения
+            креативных идей и достижения результатов, которые вдохновляют.
+            В моей деятельности я всегда стремлюсь к гармонии между эстетикой и функциональностью, привнося в каждый
+            проект индивидуальность и уникальность. Я убеждена, что ключ к успеху — это внимание к деталям и
+            любовь к тому, что делаешь.</p>
+    </div>
+</div>
+<div class="contentWrapper" id="hobby">
+    <div class="content">
+        <h2>ФОТОГРАФИЯ</h2>
+        <hr>
+        <pre class="quote">
+					<q class="italic">Красоту можно подметить во всем,
+					виденье и составление красоты это то,
+					что отделяет снимок от фотографии</q>
+								  <b>Мэтт Харди</b>
+				</pre>
+        <p>Фотография для меня — это способ видеть мир по-особенному. Это увлечение зародилось ещё в детстве и со
+            временем стало важной частью моей жизни. Я всегда нахожу красоту в простых вещах — от игры света в
+            обычном пейзаже до искренних эмоций людей. Через объектив я стремлюсь передать не только картинку, но
+            и настроение, атмосферу момента.
+            Мои работы можно описать как отражение искренних, живых моментов. Мне нравится экспериментировать с
+            композициями, искать неожиданные ракурсы и показывать мир с необычной стороны. Фотография для меня —
+            это не только творчество, но и возможность сохранять воспоминания, превращая их в истории.
+        </p>
+        <div class="body_carousel">
+            <section class="carousel" aria-label="Gallery">
+                <ol class="carousel__viewport">
+                    <li id="carousel__slide1"
+                        tabindex="0"
+                        class="carousel__slide">
+                        <img class="carousel__slide img" src="./images/быт.jpg" alt="Быт">
+                        <div class="carousel__snapper">
+                            <a href="#carousel__slide4"
+                               class="carousel__prev">В конец</a>
+                            <a href="#carousel__slide2"
+                               class="carousel__next">Далее</a>
+                        </div>
+                    </li>
+                    <li id="carousel__slide2"
+                        tabindex="0"
+                        class="carousel__slide">
+                        <img class="carousel__slide img" src="./images/деревня.jpg" alt="Деревня">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide1"
+                           class="carousel__prev">Назад</a>
+                        <a href="#carousel__slide3"
+                           class="carousel__next">Далее</a>
+                    </li>
+                    <li id="carousel__slide3"
+                        tabindex="0"
+                        class="carousel__slide">
+                        <img class="carousel__slide img" src="./images/сено.jpg" alt="Заготовка сена">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide2"
+                           class="carousel__prev">Назад</a>
+                        <a href="#carousel__slide4"
+                           class="carousel__next">Далее</a>
+                    </li>
+                    <li id="carousel__slide4"
+                        tabindex="0"
+                        class="carousel__slide">
+                        <img class="carousel__slide img" src="./images/шторм.jpg" alt="шторм">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide3"
+                           class="carousel__prev">Назад</a>
+                        <a href="#carousel__slide1"
+                           class="carousel__next">Далее</a>
+                    </li>
+                </ol>
+                <aside class="carousel__navigation">
+                    <ol class="carousel__navigation-list">
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide1"
+                               class="carousel__navigation-button">1</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide2"
+                               class="carousel__navigation-button">2</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide3"
+                               class="carousel__navigation-button">3</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide4"
+                               class="carousel__navigation-button">4</a>
+                        </li>
+                    </ol>
+                </aside>
+            </section>
+        </div>
+    </div>
+</div>
+<div class="contentWrapper" id="contact">
+    <div class="content">
+        <h2>ОБРАТНАЯ СВЯЗЬ</h2>
+        <p>Свяжитесь со мной любым удобным способом:
+            <br><br>Email: <b>email@example.com</b>
+            <br><br>Телефон: <b>+7(123)456-78-90</b>
+    </div>
+</div>
 </body>
+<footer>
+</footer>
 </html>
